@@ -1,0 +1,15 @@
+<Window x:Class="HTPC_Launcher.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:HTPC_Launcher"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <Label Content="Welcome to HTPC Launcher!" HorizontalAlignment="Center" VerticalAlignment="Top" Margin="0,24,0,0" FontSize="18"/>
+        <Button x:Name="btnLaunch" Content="Launch Kodi" HorizontalAlignment="Center" Margin="0,134,0,0" VerticalAlignment="Top" Height="45" Width="102" Click="BtnLaunch_Click"/>
+        <Button x:Name="btnExit" Content="Exit" HorizontalAlignment="Center" Margin="0,217,0,0" VerticalAlignment="Top" Height="47" Width="102" Click="BtnExit_Click"/>
+
+    </Grid>
+</Window>
